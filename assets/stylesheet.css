@@ -1,18 +1,22 @@
 body {
-            font-size: 14px;
-            padding: 0px 10px;
-          margin-left:auto;
-    margin-right:auto;
-    text-align:center;
-    color:#fff;
-        }
-        .toptitle {
-            font-size: 28px;
-        }
-        .topnav {
-        }
+  font: 15px Arial, sans-serif;
+  padding: 0px 10px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  color:#fff;
+}
+
+.toptitle {
+  font-size: 28px;
+}
+
+.topnav {
+            
+}
+
 .bottomnav {
-            font-size: 12px;
-            text-decoration: underline overline 2px;
-            color:#aaa;
-        }
+  font-size: 12px;
+  text-decoration: underline overline 2px;
+  color:#aaa;
+}
