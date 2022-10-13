@@ -13,13 +13,13 @@
     <script src="/assets/topnav.js"></script>
     <h4>Kirka</h4>     
     <p>Kirka is a multiplayer online slow-paced competitive FPS in the browser. Level-up, win skins & rewards, join a clan and fight into the clan war.</p>
-    <iframe src="" height="100%" width="750px" frameborder="5">Your browser doesn't support iframes. Stop using IE you grandma.</a></iframe>
-    <input type="fsbtn" value="FULLSCREEN" onclick="fs()">
+    <iframe src="https://kirka.io" height="100%" width="750px" frameborder="5">Your browser doesn't support iframes. Stop using IE you grandma.</a></iframe><br>
+    <form><input type="button" value="FULLSCREEN" onclick="fs()"></form>
     
     
     <script>
     function fs() {
-      document.innerHtml = "<iframe src="" height="100%" width="100%" frameborder="0">Your browser doesn't support iframes. Stop using IE you grandma.</a></iframe>"
+      document.body.innerHTML = "<iframe src='https://kirka.io' height='100%' width='100%' frameborder='0' style='position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;'>Your browser doesn't support iframes. Stop using IE you grandma.</iframe>";
     }
     </script>
     
