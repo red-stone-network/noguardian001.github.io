@@ -12,5 +12,3 @@ idle breakout
 google snake
 
 solitare
-
-kirka
